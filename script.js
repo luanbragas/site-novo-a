@@ -7,7 +7,6 @@ var dms = document.getElementById('mds')
 var alo = document.querySelector('.alo')
 msg.innerHTML = `Agora são : ${hora} horas`
 msg.style.padding = '30px'
-var hora = 19
 if(hora >= 0 && hora < 12){
     //bom dia
     img.src = 'Luan MANHÃ.png'
