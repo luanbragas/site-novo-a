@@ -1,0 +1,45 @@
+body{
+   background-color: rgb(180, 235, 240); 
+   font: normal 20pt arial;
+}
+
+@keyframes piscar {
+    0% { color: rgb(0, 182, 243)}
+    50% { color: rgb(0, 58, 247)}
+    100% {color: rgb(0, 182, 243);}
+
+}
+
+.piscar {
+    animation: piscar 2s infinite ease-in-out; 
+    
+}
+#mds{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background: white;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 7, 14);
+    padding: 15px;
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 80px 10px rgba(0, 0, 0, 0.219);
+    
+
+}
+    div{
+        text-align: center;
+        padding: 10px;
+    }
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
