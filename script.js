@@ -35,7 +35,7 @@ if(hora >= 0 && hora < 12){
 }
 else{
     // boa noiti
-    img.src = 'Luan noite.png'
+    img.src = 'Luan Noite.png'
     document.body.style.background = '#02060d'
     dms.style.textShadow = '0px 0 5px blue';
     alo.style.background = 'rgba(0, 0, 0, 0.4)';
